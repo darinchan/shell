@@ -1,0 +1,12 @@
+[user]
+	name = Darin Chan
+	email = undefined
+[color]
+        ui = true
+[format]
+        pretty = format:%C(black bold)%h%Creset %C(cyan)%cn%Creset %C(white)%s%Creset - %C(black bold)%ar%Creset
+[alias]
+	st = status
+	br = branch
+	dif = diff
+	lg = log --pretty=format:'%C(bold)%Cgreen%h %C(yellow)%cd %Cblue%cn %C(white)%s' --date=short
